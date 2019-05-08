@@ -12,3 +12,8 @@ This indicator could change state on partial view pager offset
 
         //set indicator size
         view_pager_indicator.setupIndicatorSize(3)
+        
+# Custom attributes:
+        //This attributes used to change gap between indicator streaks
+        app:start_margin="@dimen/indicator_gap_dp"
+        app:end_margin="@dimen/indicator_gap_dp"
