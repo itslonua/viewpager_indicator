@@ -1,6 +1,26 @@
+apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'maven-publish'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.itslonua'
+
+publish {
+
+    def groupProjectID = 'com.babylone.library'
+    def artifactProjectID = 'indicator'
+    def publishVersionID = '1.0.0'
+
+    userOrg = 'a-krapivnoy'
+    repoName = 'viewpager_indicator'
+    groupId = groupProjectID
+    artifactId = artifactProjectID
+    publishVersion = publishVersionID
+    desc = 'Android library ViewPager indicator'
+    website = 'https://github.com/itslonua/viewpager_indicator'
+}
 
 android {
     compileSdkVersion 28
