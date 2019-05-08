@@ -1,4 +1,5 @@
 # Viewpager Indicator ( Kotlin version )
+ :repositories [["jitpack" "https://jitpack.io"]]
 Simple indicator with a vertical streaks
 This indicator could change state on partial view pager offset
 ![image](https://user-images.githubusercontent.com/10744009/57377926-4a842a80-71ac-11e9-8016-693288223840.png)
