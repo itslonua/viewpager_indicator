@@ -1,7 +1,7 @@
 # Viewpager Indicator ( Kotlin version )
 Simple indicator with a vertical streaks
-
-![image](https://user-images.githubusercontent.com/10744009/57377796-fa0ccd00-71ab-11e9-97be-1b611a0b0d5f.png)
+This indicator could change state on partial view pager offset
+![image](https://user-images.githubusercontent.com/10744009/57377926-4a842a80-71ac-11e9-8016-693288223840.png)
 
 # Usage:
         //set ViewPager Adapter to View Pager.
