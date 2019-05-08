@@ -1,4 +1,4 @@
-# Viewpager Indicator
+# Viewpager Indicator ( Kotlin version )
 Simple indicator with a vertial streaks
 
 # Usage:
