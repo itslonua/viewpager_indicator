@@ -1,5 +1,5 @@
 # Viewpager Indicator ( Kotlin version )
-Simple indicator with a vertial streaks
+Simple indicator with a vertical streaks
 
 # Usage:
         //set ViewPager Adapter to View Pager.
